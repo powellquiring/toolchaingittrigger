@@ -5,9 +5,9 @@ inputs:
   service: ${githubconsolidated00}
 properties: []
 triggers: []
-#triggers:
-#- branch: master
-#  eventListener: BUILD
-#  name: Git Trigger
-#  type: git
-#  url: https://github.com/powellquiring/toolchaingittrigger.git
+triggers:
+- branch: master
+  eventListener: BUILD
+  name: Git Trigger
+  type: git
+  url: https://github.com/powellquiring/toolchaingittrigger.git
