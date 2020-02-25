@@ -4,7 +4,6 @@ inputs:
   type: git
   service: ${githubconsolidated00}
 properties: []
-triggers: []
 triggers:
 - branch: master
   eventListener: BUILD
